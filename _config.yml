@@ -1,0 +1,15 @@
+# GitHub Pages / Jekyll configuration for PartyMix legal pages.
+title: PartyMix — Legal
+description: Privacy Policy and Terms of Use for the PartyMix mobile app.
+theme: jekyll-theme-cayman
+
+# Allow .md cross-document links to resolve to .html on the rendered site.
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
+
+# Exclude the developer-facing STORE_LAUNCH_CHECKLIST.md from the public site.
+exclude:
+  - STORE_LAUNCH_CHECKLIST.md
