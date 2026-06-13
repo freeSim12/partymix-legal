@@ -5,7 +5,7 @@ permalink: /PRIVACY_POLICY.html
 
 # Politique de confidentialité — PartyMix
 
-_Dernière mise à jour : 13 juin 2026_
+_Dernière mise à jour : 14 juin 2026_
 
 La présente politique décrit comment l'application **PartyMix** (« l'Application », « nous ») collecte, utilise et protège les informations lorsque vous utilisez l'Application sur iOS ou Android.
 
@@ -31,15 +31,22 @@ PartyMix est conçu pour minimiser la collecte de données. Voici exhaustivement
 - **Ce qui n'est PAS collecté :** aucun contenu saisi, aucune photo, aucun nom de joueur.
 - **Durée :** 90 jours (politique Firebase par défaut).
 
-### 2.3 Achats intégrés
+### 2.3 Statistiques d'usage (Firebase Analytics)
+- **Quoi :** événements anonymes (ouverture de l'application, démarrage de session, navigation entre écrans), modèle d'appareil, version d'OS, pays approximatif, langue.
+- **Pourquoi :** mesurer l'usage de l'Application (nombre d'utilisateurs actifs, rétention, popularité des jeux) pour orienter les améliorations futures.
+- **Ce qui n'est PAS collecté :** aucun identifiant publicitaire (IDFA/AAID), aucun nom de joueur, aucune donnée saisie.
+- **Tracking :** PartyMix ne suit **pas** les utilisateurs à travers d'autres applications ou sites web.
+- **Durée :** par défaut 2 mois (paramétrable depuis Firebase Console).
+
+### 2.4 Achats intégrés
 - Lorsque vous achetez une option premium, la transaction est traitée par **Google Play Billing** (Android) ou **App Store** (iOS). PartyMix reçoit uniquement un accusé de réception anonymisé — pas votre moyen de paiement, pas votre identité.
 
-### 2.4 Photos (jeu « Photo Roulette »)
+### 2.5 Photos (jeu « Photo Roulette »)
 - Les photos que vous choisissez depuis votre pellicule **ne quittent jamais le réseau Wi-Fi local**.
 - Elles sont partagées de téléphone à téléphone via un serveur HTTP local pendant la partie, puis **supprimées** à la fin de la session.
 - **Aucune photo n'est envoyée à nos serveurs ou à un tiers.**
 
-### 2.5 Ce que nous NE collectons PAS
+### 2.6 Ce que nous NE collectons PAS
 - Nom, adresse, date de naissance.
 - Géolocalisation précise ou approximative.
 - Contacts, SMS, historique d'appels.
@@ -53,7 +60,7 @@ Les prestataires suivants traitent des données pour notre compte dans le cadre 
 
 | Prestataire | Rôle | Données traitées | Base juridique |
 |---|---|---|---|
-| **Google Firebase** (Google Ireland Ltd) | Hébergement Firestore, Authentification, Crashlytics | ID appareil, logs de crash | Intérêt légitime / exécution contractuelle |
+| **Google Firebase** (Google Ireland Ltd) | Hébergement Firestore, Authentification, Crashlytics, Analytics | ID appareil, logs de crash, événements anonymes d'usage | Intérêt légitime / exécution contractuelle |
 | **Google Play Billing** | Facturation Android | Identifiant de transaction | Exécution contractuelle |
 | **Apple App Store / StoreKit** | Facturation iOS | Identifiant de transaction | Exécution contractuelle |
 
@@ -103,7 +110,7 @@ Pour toute question : **simondouz81150@gmail.com**.
 
 # Privacy Policy — PartyMix (English)
 
-_Last updated: 2026-06-13_
+_Last updated: 2026-06-14_
 
 This Privacy Policy describes how **PartyMix** (the "App", "we") collects, uses, and protects information when you use the App on iOS or Android.
 
@@ -117,6 +124,7 @@ PartyMix minimizes data collection. Here is the exhaustive list:
 
 - **Device ID** — a technical identifier (not your name, email, or any personal info) used to link a premium code to your device. Stored in Google Firestore.
 - **Crash reports** (Firebase Crashlytics) — error type, stack trace, app version, device model, OS version, locale. **No user content, no photos, no player names.** Retained 90 days.
+- **Usage analytics** (Firebase Analytics) — anonymous events (app opens, session starts, screen views), device model, OS version, approximate country, language. **No advertising IDs, no player names, no content.** We do **NOT** track you across other apps or websites. Default retention: 2 months.
 - **In-app purchases** — processed by Google Play / App Store. We only receive an anonymized receipt.
 - **Photos (Photo Roulette game)** — never leave your local Wi-Fi. Shared peer-to-peer during the session and deleted afterward. **Never uploaded to our servers.**
 
