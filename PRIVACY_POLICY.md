@@ -41,6 +41,12 @@ PartyMix est conçu pour minimiser la collecte de données. Voici exhaustivement
 ### 2.4 Achats intégrés
 - Lorsque vous achetez une option premium, la transaction est traitée par **Google Play Billing** (Android) ou **App Store** (iOS). PartyMix reçoit uniquement un accusé de réception anonymisé — pas votre moyen de paiement, pas votre identité.
 
+### 2.4 bis Notifications locales
+- **Quoi :** un rappel hebdomadaire (jeudi, vendredi ou samedi soir) t'invitant à lancer une partie.
+- **Où :** **100 % local** — programmé par l'Application elle-même sur ton appareil. **Aucun serveur impliqué.**
+- **Données collectées :** **aucune**. Le contenu et l'horaire de la notification sont décidés par l'app sur ton tel.
+- **Désactivation :** désactive les notifications de PartyMix dans **Paramètres Android → Apps → PartyMix → Notifications** (ou refuse la permission à la première demande).
+
 ### 2.5 Photos (jeu « Photo Roulette »)
 - Les photos que vous choisissez depuis votre pellicule **ne quittent jamais le réseau Wi-Fi local**.
 - Elles sont partagées de téléphone à téléphone via un serveur HTTP local pendant la partie, puis **supprimées** à la fin de la session.
