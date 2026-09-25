@@ -11,6 +11,10 @@ PartyMix est une application mobile de jeux de soirée multi-jeux disponible sur
 - 🇫🇷🇬🇧 [Politique de confidentialité / Privacy Policy](./PRIVACY_POLICY.html)
 - 🇫🇷🇬🇧 [Conditions Générales d'Utilisation / Terms of Use](./TERMS.html)
 
+## EarthVision
+
+Les documents légaux de l'application **EarthVision** (webcams du monde en direct) : [earthvision/](./earthvision/)
+
 ## Contact
 
 Pour toute question concernant l'application ou vos données personnelles :
