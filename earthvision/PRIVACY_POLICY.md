@@ -1,11 +1,13 @@
 ---
-title: EarthVision — Privacy Policy
+title: EarthVision — Politique de confidentialité
 permalink: /earthvision/PRIVACY_POLICY.html
 ---
 
+**Français** · [English](./en/PRIVACY_POLICY.html) · [Español](./es/PRIVACY_POLICY.html)
+
 # Politique de confidentialité — EarthVision
 
-_Dernière mise à jour : 25 septembre 2026_
+_Dernière mise à jour : 1er octobre 2026_
 
 La présente politique décrit comment l'application **EarthVision** (« l'Application », « nous ») collecte, utilise et protège les informations lorsque vous l'utilisez sur Android ou iOS.
 
@@ -25,7 +27,7 @@ EarthVision est conçu pour collecter le minimum. Voici la liste exhaustive.
 - **Quoi :** un identifiant technique aléatoire créé au premier lancement (connexion anonyme). Aucun nom, aucun e-mail, aucun numéro de téléphone.
 - **Pourquoi :** rattacher vos favoris à votre appareil et les synchroniser.
 - **Où :** Supabase (hébergement en Union européenne, Irlande).
-- **Durée :** jusqu'à ce que vous supprimiez vos données (voir section 5).
+- **Durée :** jusqu'à ce que vous supprimiez vos données (voir section 6).
 
 ### 2.2 Favoris
 - **Quoi :** la liste des caméras que vous avez mises en favori.
@@ -37,40 +39,56 @@ EarthVision est conçu pour collecter le minimum. Voici la liste exhaustive.
 - **Signalements :** si vous signalez une caméra, nous enregistrons l'identifiant de la caméra et la date.
 
 ### 2.4 Localisation
-- **Quoi :** votre position, **uniquement** si vous touchez « Me localiser » et acceptez la permission.
-- **Pourquoi :** centrer le globe sur l'endroit où vous êtes.
-- **Où :** utilisée sur votre appareil. **Elle n'est jamais envoyée à nos serveurs.** Le SDK cartographique Mapbox peut collecter des données de télémétrie anonymes (voir section 3).
+- **Quand :** **uniquement** si vous la demandez (« Me localiser », onglet « Près d'ici », alertes de passage de l'ISS) et acceptez la permission. Jamais en arrière-plan sans votre accord, jamais de suivi continu.
+- **Pourquoi :** centrer le globe sur vous, trier les caméras par distance et, si vous activez les alertes de passage de l'ISS ou d'aurores (EarthVision+), calculer ce qui sera visible au-dessus de chez vous.
+- **Où :** **uniquement sur votre appareil.** Pour les alertes, une position **arrondie à environ 10 km** y est conservée, puis mise à jour à l'ouverture de l'Application. **Elle n'est jamais envoyée à nos serveurs.**
 
-### 2.5 Notifications locales
-- Au plus **deux par semaine** (un coucher de soleil le week-end, une découverte en semaine).
-- **100 % locales :** programmées par l'Application sur votre appareil. **Aucun serveur, aucune donnée collectée.**
-- **Désactivation :** dans l'Application (Profil → Notifications) ou dans les réglages du téléphone.
+### 2.5 Notifications et alertes
+- **Notifications de découverte :** au plus **deux par semaine** (un coucher de soleil, un lieu à découvrir).
+- **Alertes EarthVision+ (si vous les activez) :** coucher de soleil sur un de vos favoris (une par jour au plus), passages visibles de l'ISS, nuits d'aurores.
+- **100 % locales :** programmées par l'Application sur votre appareil, sans serveur. Pour les aurores, l'Application consulte environ toutes les heures la prévision publique de l'indice Kp de la NOAA (voir section 3) : aucune donnée vous concernant n'est envoyée, hormis l'adresse IP inhérente à toute connexion.
+- **Désactivation :** dans l'Application (Profil, Favoris) ou dans les réglages du téléphone.
 
-### 2.6 Achats intégrés (EarthVision+)
-- Traités par **Google Play** ou l'**App Store**. Nous ne recevons ni votre moyen de paiement ni votre identité.
+### 2.6 Widget d'écran d'accueil
+- Le widget affiche l'image du moment de la caméra que vous choisissez. Votre choix et l'image sont conservés **sur votre appareil** ; l'image est téléchargée directement chez le fournisseur de la caméra.
 
-### 2.7 Ce que nous ne collectons PAS
+### 2.7 Préférences
+- Langue, types de caméras affichés, réglages des alertes : conservés **sur votre appareil** uniquement.
+
+### 2.8 Abonnement EarthVision+
+- Le paiement est traité par **Google Play** ou l'**App Store** : nous ne recevons ni votre moyen de paiement, ni votre nom, ni votre e-mail.
+- L'état de votre abonnement est géré par **RevenueCat**, qui reçoit du store le reçu d'achat (produit, date, renouvellement) associé à un identifiant d'utilisateur anonyme créé par l'Application.
+
+### 2.9 Ce que nous ne collectons PAS
 Nom, e-mail, adresse, date de naissance, contacts, photos, historique de navigation, identifiant publicitaire. **Aucun suivi publicitaire.** Aucune statistique d'usage ni rapport de plantage à ce jour.
 
 ## 3. Services tiers
 
 | Service | Rôle | Données concernées |
 |---|---|---|
-| **Supabase** (Supabase Inc., serveurs en Irlande) | Base de données, connexion anonyme | Identifiant anonyme, favoris, notes, signalements, adresse IP (journaux techniques) |
+| **Supabase** (Supabase Inc., serveurs en Irlande) | Base de données, connexion anonyme, liste des caméras | Identifiant anonyme, favoris, notes, signalements, adresse IP (journaux techniques) |
+| **RevenueCat** (RevenueCat Inc., États-Unis) | Gestion de l'abonnement EarthVision+ | Identifiant anonyme d'achat, reçus d'achat transmis par le store, adresse IP ([politique RevenueCat](https://www.revenuecat.com/privacy)) |
 | **Mapbox** (Mapbox Inc., États-Unis) | Carte et globe | Adresse IP, données techniques et télémétrie anonyme du SDK ([politique Mapbox](https://www.mapbox.com/legal/privacy)) |
 | **YouTube** (Google) | Lecture des lives YouTube | Données collectées par le lecteur YouTube lorsque vous regardez une vidéo ([règles de confidentialité Google](https://policies.google.com/privacy)) |
-| **Fournisseurs des caméras** (TfL, Fintraffic, départements des transports américains…) | Envoi des images et vidéos | Adresse IP, comme pour toute page web consultée |
+| **Windy** et autres **fournisseurs des caméras** (TfL, Fintraffic, départements des transports…) | Envoi des images et vidéos | Adresse IP, comme pour toute page web consultée |
+| **MET Norway** (Institut météorologique norvégien) | Météo affichée sur la page d'une caméra | Coordonnées **de la caméra** (pas les vôtres), adresse IP |
+| **Wikipédia** (Wikimedia Foundation) | Carte « À propos de ce lieu » | Coordonnées **de la caméra**, adresse IP |
+| **NOAA** (agence américaine, prévisions de météo spatiale) | Prévision des aurores | Adresse IP uniquement |
 | **Google Play / App Store** | Téléchargement, notes, achats | Selon leurs propres politiques |
 
-Certaines données peuvent être traitées hors de l'Union européenne (Mapbox, Google), dans le cadre de garanties appropriées (EU-US Data Privacy Framework ou clauses contractuelles types).
+Certaines données peuvent être traitées hors de l'Union européenne (RevenueCat, Mapbox, Google), dans le cadre de garanties appropriées (EU-US Data Privacy Framework ou clauses contractuelles types).
 
 ## 4. Base légale
 
-- **Exécution du service** : identifiant anonyme, favoris, localisation à la demande.
+- **Exécution du service** : identifiant anonyme, favoris, abonnement, localisation à la demande.
 - **Intérêt légitime** : notes, signalements, journaux techniques (sécurité, amélioration de l'app).
 - **Consentement** : localisation et notifications (permissions système, retirables à tout moment).
 
-## 5. Vos droits (RGPD / CCPA)
+## 5. Tâche de fond
+
+Pour les alertes d'aurores et le widget, l'Application effectue environ une fois par heure une courte tâche en arrière-plan (programmée par Android, uniquement avec une connexion Internet) : consultation de la prévision de la NOAA et rechargement de l'image du widget. Elle ne transmet aucune donnée personnelle.
+
+## 6. Vos droits (RGPD / CCPA)
 
 Vous pouvez accéder à vos données, les rectifier, les supprimer, vous opposer à leur traitement ou demander leur portabilité.
 
@@ -78,69 +96,30 @@ Vous pouvez accéder à vos données, les rectifier, les supprimer, vous opposer
 - **Par e-mail :** **simondouz81150@gmail.com**. Réponse sous **30 jours maximum**. Voir aussi la [page de suppression des données](./DATA_DELETION.html).
 - Vous pouvez déposer une réclamation auprès de la **CNIL** (cnil.fr).
 
-## 6. Conservation
+## 7. Conservation
 
 - Identifiant anonyme, favoris, notes : jusqu'à la suppression de vos données.
 - Signalements : conservés sans lien avec vous après suppression de vos données.
-- Journaux techniques Supabase : quelques jours, selon la politique de Supabase.
+- Données d'abonnement chez RevenueCat : pendant la durée nécessaire à la gestion de l'abonnement et aux obligations légales.
+- Données sur l'appareil (préférences, position arrondie, widget) : effacées à la désinstallation.
+- Journaux techniques : quelques jours, selon la politique de chaque hébergeur.
 
-## 7. Sécurité
+## 8. Sécurité
 
 Toutes les communications avec nos serveurs sont chiffrées (**HTTPS / TLS**). Les accès à la base sont protégés par des règles de sécurité par ligne : chaque utilisateur ne peut lire et modifier que ses propres favoris.
 
-## 8. Enfants
+## 9. Enfants
 
 Les webcams montrent des lieux publics en direct, dont le contenu n'est pas contrôlé à l'avance. L'Application est destinée à un public de **13 ans et plus**. Nous ne collectons sciemment aucune donnée d'enfants de moins de 13 ans.
 
-## 9. Personnes filmées
+## 10. Personnes filmées
 
-Les caméras filment des lieux publics et appartiennent à leurs exploitants. Si vous pensez qu'une caméra porte atteinte à votre vie privée, utilisez « Signaler » dans le lecteur ou écrivez-nous : nous la retirons de l'Application sous **7 jours**.
+Les caméras filment des lieux publics et appartiennent à leurs exploitants. Si vous pensez qu'une caméra porte atteinte à votre vie privée, utilisez « Signaler un problème » dans le lecteur ou écrivez-nous : nous la retirons de l'Application sous **7 jours**.
 
-## 10. Modifications
+## 11. Modifications
 
 Cette politique peut évoluer (par exemple à l'arrivée de la publicité). La date de mise à jour en tête de page indique la dernière version ; les changements importants seront annoncés dans l'Application.
 
-## 11. Droit applicable et contact
+## 12. Droit applicable et contact
 
 Cette politique est régie par le droit **français**. Pour toute question : **simondouz81150@gmail.com**.
-
----
-
-# Privacy Policy — EarthVision (English)
-
-_Last updated: 2026-09-25_
-
-**EarthVision** shows **public live webcams** owned by third parties on a globe. We do not film, record or rebroadcast anything: the App displays the stream provided by each camera's owner.
-
-## 1. Publisher
-**EarthVision**, contact: **simondouz81150@gmail.com**.
-
-## 2. Data we process
-- **Anonymous ID** — a random technical identifier created on first launch (no name, email or phone number), used to sync your favorites. Stored with Supabase (EU, Ireland).
-- **Favorites** — the cameras you saved. Used to show them to you and to compute the anonymous "Favoris des gens" ranking (count per camera, never who saved what).
-- **Ratings and reports** — the star rating you give in the App, and the camera ID when you report a problem.
-- **Location** — only when you tap "Me localiser" and grant permission, to center the globe. **Never sent to our servers.** The Mapbox SDK may collect anonymous telemetry (see below).
-- **Local notifications** — at most two per week, scheduled on your device. No server, no data collected. Can be turned off in Profil → Notifications.
-- **In-app purchases** — handled by Google Play / App Store. We never see your payment details.
-- **Not collected** — name, email, address, birthdate, contacts, photos, browsing history, advertising ID. No ad tracking, no analytics, no crash reports at this time.
-
-## 3. Third parties
-Supabase (database, anonymous sign-in, EU), Mapbox (maps; IP address, technical data, SDK telemetry), YouTube / Google (YouTube player), camera providers such as TfL, Fintraffic and US departments of transportation (they receive your IP address when streams load), Google Play / App Store. Some data may be processed outside the EU under appropriate safeguards.
-
-## 4. Your rights (GDPR / CCPA)
-Delete everything instantly in **Profil → Supprimer mes données**, or email **simondouz81150@gmail.com** (answer within 30 days). See the [data deletion page](./DATA_DELETION.html). You may complain to your data protection authority (CNIL in France).
-
-## 5. Retention
-Anonymous ID, favorites and ratings: until you delete your data. Reports: kept without any link to you. Supabase technical logs: a few days.
-
-## 6. Security
-All traffic is encrypted (HTTPS/TLS). Row-level security ensures each user can only read and change their own favorites.
-
-## 7. Children
-Live webcams are not moderated in advance. The App is intended for users **13 and over**. We do not knowingly collect data from children under 13.
-
-## 8. People on camera
-Cameras film public places and belong to their operators. If you believe a camera invades your privacy, use "Signaler" in the player or email us: we remove it from the App within **7 days**.
-
-## 9. Changes, governing law, contact
-We may update this policy (for example when ads are introduced); major changes will be announced in the App. Governed by **French** law. Contact: **simondouz81150@gmail.com**.

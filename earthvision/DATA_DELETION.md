@@ -1,11 +1,13 @@
 ---
-title: EarthVision — Data Deletion
+title: EarthVision — Suppression des données
 permalink: /earthvision/DATA_DELETION.html
 ---
 
+**Français** · [English](./en/DATA_DELETION.html) · [Español](./es/DATA_DELETION.html)
+
 # Suppression des données — EarthVision
 
-_Dernière mise à jour : 25 septembre 2026_
+_Dernière mise à jour : 1er octobre 2026_
 
 Conformément au RGPD (Union européenne) et au CCPA (Californie), tu peux supprimer toutes les données qu'**EarthVision** détient sur toi.
 
@@ -15,7 +17,7 @@ Conformément au RGPD (Union européenne) et au CCPA (Californie), tu peux suppr
 - tes **favoris** ;
 - les **notes** que tu as données dans l'app.
 
-Ta position n'est jamais envoyée à nos serveurs, et les notifications sont 100 % locales : il n'y a rien à supprimer de ce côté.
+Ta position n'est jamais envoyée à nos serveurs, et les notifications sont 100 % locales. Tes préférences, ta position arrondie (alertes ISS et aurores) et le widget sont stockés uniquement sur ton téléphone : ils disparaissent quand tu désinstalles l'app.
 
 ## Option 1 : dans l'application (immédiat)
 
@@ -33,16 +35,5 @@ Si tu as désinstallé l'application, écris à **simondouz81150@gmail.com** :
 ## Ce qui est conservé
 
 - Les **signalements** de caméras restent, mais sans aucun lien avec toi.
-- Les **achats EarthVision+** sont gérés par Google Play / l'App Store selon leurs propres règles.
-- Les **journaux techniques** de l'hébergeur s'effacent automatiquement en quelques jours.
-
----
-
-# Data Deletion — EarthVision (English)
-
-You can delete all data EarthVision holds about you: your **anonymous ID**, your **favorites** and the **ratings** you gave in the app. Your location is never sent to our servers and notifications are local only.
-
-- **In the app (instant):** Profil → Supprimer mes données → Supprimer.
-- **By email:** **simondouz81150@gmail.com**, subject `EarthVision data deletion request`, with your phone model and when you used the app. Deletion within **30 days**.
-
-Camera reports are kept without any link to you. Purchases are handled by Google Play / App Store. Hosting logs expire automatically within days.
+- **EarthVision+ :** supprimer tes données ne résilie pas l'abonnement. Pour l'arrêter, résilie-le dans les réglages de ton compte Google Play ou App Store. L'historique d'achat est conservé par le store et par RevenueCat selon leurs règles et les obligations légales.
+- Les **journaux techniques** des hébergeurs s'effacent automatiquement en quelques jours.

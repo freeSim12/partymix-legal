@@ -5,13 +5,13 @@ permalink: /earthvision/
 
 # EarthVision
 
-EarthVision affiche sur un globe les webcams publiques en direct du monde entier. Application mobile Android et iOS.
+Les webcams publiques en direct du monde entier, sur un globe. · Every public live webcam in the world, on a globe. · Todas las webcams públicas en directo del mundo, en un globo.
 
-## Documents légaux / Legal documents
-
-- [Politique de confidentialité / Privacy Policy](./PRIVACY_POLICY.html)
-- [Conditions Générales d'Utilisation / Terms of Use](./TERMS.html)
-- [Suppression des données / Data Deletion](./DATA_DELETION.html)
+| | Français | English | Español |
+|---|---|---|---|
+| Confidentialité · Privacy · Privacidad | [Politique de confidentialité](./PRIVACY_POLICY.html) | [Privacy Policy](./en/PRIVACY_POLICY.html) | [Política de privacidad](./es/PRIVACY_POLICY.html) |
+| Conditions · Terms · Condiciones | [Conditions d'utilisation](./TERMS.html) | [Terms of Use](./en/TERMS.html) | [Condiciones de uso](./es/TERMS.html) |
+| Suppression · Deletion · Borrado | [Suppression des données](./DATA_DELETION.html) | [Data Deletion](./en/DATA_DELETION.html) | [Borrado de datos](./es/DATA_DELETION.html) |
 
 ## Contact
 
