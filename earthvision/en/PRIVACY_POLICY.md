@@ -7,7 +7,7 @@ permalink: /earthvision/en/PRIVACY_POLICY.html
 
 # Privacy Policy — EarthVision
 
-_Last updated: October 1, 2026_
+_Last updated: October 2, 2026_
 
 This policy explains how the **EarthVision** app ("the App", "we") collects, uses and protects information when you use it on Android or iOS.
 
@@ -59,8 +59,13 @@ EarthVision is designed to collect as little as possible. This is the complete l
 - Payment is handled by **Google Play** or the **App Store**: we never receive your payment details, name or email.
 - Your subscription status is managed by **RevenueCat**, which receives the purchase receipt (product, date, renewal) from the store, linked to an anonymous user ID created by the App.
 
-### 2.9 What we do NOT collect
-Name, email, address, date of birth, contacts, photos, browsing history, advertising ID. **No ad tracking.** No usage analytics or crash reports at this time.
+### 2.9 Advertising (free version)
+- The free version shows ads provided by **Google AdMob**: a banner in the player and, from time to time, a full-screen ad when you open a camera. **No ads for EarthVision+ subscribers.**
+- To do this, Google may use your device's **advertising ID**, your IP address, an approximate location derived from it, and technical information about the device and the ads shown.
+- **Your choice:** in the European Union, the United Kingdom and Switzerland, a Google window asks for your consent before any personalized ad. You can change it at any time in **Profile → Ad privacy choices**. You can also reset or delete the advertising ID in your Android settings (Google → Ads).
+
+### 2.10 What we do NOT collect
+Name, email, address, date of birth, contacts, photos, browsing history. No usage analytics or crash reports at this time.
 
 ## 3. Third-party services
 
@@ -68,6 +73,7 @@ Name, email, address, date of birth, contacts, photos, browsing history, adverti
 |---|---|---|
 | **Supabase** (Supabase Inc., servers in Ireland) | Database, anonymous sign-in, camera list | Anonymous ID, favorites, ratings, reports, IP address (technical logs) |
 | **RevenueCat** (RevenueCat Inc., United States) | EarthVision+ subscription management | Anonymous purchase ID, purchase receipts sent by the store, IP address ([RevenueCat policy](https://www.revenuecat.com/privacy)) |
+| **Google AdMob** (Google, United States / Ireland) | Ads in the free version | Advertising ID, IP address, approximate location, technical and ad interaction data ([Google privacy policy](https://policies.google.com/privacy), [Google advertising](https://policies.google.com/technologies/ads)) |
 | **Mapbox** (Mapbox Inc., United States) | Map and globe | IP address, technical data and anonymous SDK telemetry ([Mapbox policy](https://www.mapbox.com/legal/privacy)) |
 | **YouTube** (Google) | Playing YouTube live streams | Data collected by the YouTube player when you watch a video ([Google privacy policy](https://policies.google.com/privacy)) |
 | **Windy** and other **camera providers** (TfL, Fintraffic, departments of transportation…) | Sending images and video | IP address, as for any web page you visit |
@@ -76,13 +82,13 @@ Name, email, address, date of birth, contacts, photos, browsing history, adverti
 | **NOAA** (US agency, space weather forecasts) | Aurora forecast | IP address only |
 | **Google Play / App Store** | Downloads, ratings, purchases | According to their own policies |
 
-Some data may be processed outside the European Union (RevenueCat, Mapbox, Google) under appropriate safeguards (EU-US Data Privacy Framework or standard contractual clauses).
+Some data may be processed outside the European Union (RevenueCat, Mapbox, Google, including AdMob) under appropriate safeguards (EU-US Data Privacy Framework or standard contractual clauses).
 
 ## 4. Legal basis
 
 - **Performance of the service:** anonymous ID, favorites, subscription, location on request.
 - **Legitimate interest:** ratings, reports, technical logs (security, improving the app).
-- **Consent:** location and notifications (system permissions, which you can withdraw at any time).
+- **Consent:** location, notifications and personalized ads (which you can withdraw at any time).
 
 ## 5. Background task
 

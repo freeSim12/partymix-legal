@@ -7,7 +7,7 @@ permalink: /earthvision/es/PRIVACY_POLICY.html
 
 # Política de privacidad — EarthVision
 
-_Última actualización: 1 de octubre de 2026_
+_Última actualización: 2 de octubre de 2026_
 
 Esta política explica cómo la aplicación **EarthVision** («la Aplicación», «nosotros») recopila, usa y protege la información cuando la utilizas en Android o iOS.
 
@@ -59,8 +59,13 @@ EarthVision está diseñada para recopilar lo mínimo. Esta es la lista completa
 - El pago lo gestiona **Google Play** o el **App Store**: nunca recibimos tu medio de pago, tu nombre ni tu correo.
 - El estado de tu suscripción lo gestiona **RevenueCat**, que recibe de la tienda el recibo de compra (producto, fecha, renovación) asociado a un identificador de usuario anónimo creado por la Aplicación.
 
-### 2.9 Lo que NO recopilamos
-Nombre, correo, dirección, fecha de nacimiento, contactos, fotos, historial de navegación, identificador publicitario. **Ningún seguimiento publicitario.** Por ahora, ninguna estadística de uso ni informe de errores.
+### 2.9 Publicidad (versión gratuita)
+- La versión gratuita muestra anuncios de **Google AdMob**: un banner en el reproductor y, de vez en cuando, un anuncio a pantalla completa al abrir una cámara. **Ningún anuncio para los suscriptores de EarthVision+.**
+- Para ello, Google puede usar el **identificador publicitario** de tu dispositivo, tu dirección IP, una ubicación aproximada deducida de ella y datos técnicos sobre el dispositivo y los anuncios mostrados.
+- **Tu elección:** en la Unión Europea, el Reino Unido y Suiza, una ventana de Google te pide tu consentimiento antes de cualquier anuncio personalizado. Puedes cambiarlo en cualquier momento en **Perfil → Privacidad de los anuncios**. También puedes restablecer o eliminar el identificador publicitario en los ajustes de Android (Google → Anuncios).
+
+### 2.10 Lo que NO recopilamos
+Nombre, correo, dirección, fecha de nacimiento, contactos, fotos, historial de navegación. Por ahora, ninguna estadística de uso ni informe de errores.
 
 ## 3. Servicios de terceros
 
@@ -68,6 +73,7 @@ Nombre, correo, dirección, fecha de nacimiento, contactos, fotos, historial de 
 |---|---|---|
 | **Supabase** (Supabase Inc., servidores en Irlanda) | Base de datos, inicio de sesión anónimo, lista de cámaras | Identificador anónimo, favoritos, valoraciones, reportes, dirección IP (registros técnicos) |
 | **RevenueCat** (RevenueCat Inc., Estados Unidos) | Gestión de la suscripción EarthVision+ | Identificador de compra anónimo, recibos de compra enviados por la tienda, dirección IP ([política de RevenueCat](https://www.revenuecat.com/privacy)) |
+| **Google AdMob** (Google, Estados Unidos / Irlanda) | Publicidad de la versión gratuita | Identificador publicitario, dirección IP, ubicación aproximada, datos técnicos y de interacción con los anuncios ([política de privacidad de Google](https://policies.google.com/privacy), [publicidad de Google](https://policies.google.com/technologies/ads)) |
 | **Mapbox** (Mapbox Inc., Estados Unidos) | Mapa y globo | Dirección IP, datos técnicos y telemetría anónima del SDK ([política de Mapbox](https://www.mapbox.com/legal/privacy)) |
 | **YouTube** (Google) | Reproducción de directos de YouTube | Datos recopilados por el reproductor de YouTube cuando ves un vídeo ([política de privacidad de Google](https://policies.google.com/privacy)) |
 | **Windy** y otros **proveedores de cámaras** (TfL, Fintraffic, departamentos de transporte…) | Envío de imágenes y vídeos | Dirección IP, como en cualquier página web que visites |
@@ -76,13 +82,13 @@ Nombre, correo, dirección, fecha de nacimiento, contactos, fotos, historial de 
 | **NOAA** (agencia de EE. UU., previsiones de meteorología espacial) | Previsión de auroras | Solo la dirección IP |
 | **Google Play / App Store** | Descargas, valoraciones, compras | Según sus propias políticas |
 
-Algunos datos pueden tratarse fuera de la Unión Europea (RevenueCat, Mapbox, Google), con las garantías adecuadas (Marco de Privacidad de Datos UE-EE. UU. o cláusulas contractuales tipo).
+Algunos datos pueden tratarse fuera de la Unión Europea (RevenueCat, Mapbox, Google, incluido AdMob), con las garantías adecuadas (Marco de Privacidad de Datos UE-EE. UU. o cláusulas contractuales tipo).
 
 ## 4. Base jurídica
 
 - **Ejecución del servicio:** identificador anónimo, favoritos, suscripción, ubicación a petición.
 - **Interés legítimo:** valoraciones, reportes, registros técnicos (seguridad, mejora de la app).
-- **Consentimiento:** ubicación y notificaciones (permisos del sistema, que puedes retirar en cualquier momento).
+- **Consentimiento:** ubicación, notificaciones y anuncios personalizados (que puedes retirar en cualquier momento).
 
 ## 5. Tarea en segundo plano
 
